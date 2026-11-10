@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#070B14"/>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#1E293B" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#070B14" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect x="64" y="64" width="1072" height="502" rx="24" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="2" fill="#0B1222" fill-opacity="0.72"/>
+  <rect x="112" y="128" width="320" height="38" rx="19" fill="#0EA5E9" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.35"/>
+  <text x="136" y="153" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" letter-spacing="1.5">AUWAL SALELE IRO • AI/ML &amp; WEB</text>
+  <text x="112" y="258" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800">Intelligent Solutions &amp;</text>
+  <text x="112" y="328" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800">Modern Web Architecture</text>
+  <text x="112" y="405" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="24">Machine Learning  •  Deep Learning  •  Computer Vision  •  React &amp; TypeScript</text>
+  <circle cx="1010" cy="210" r="7" fill="#38BDF8"/>
+  <circle cx="1065" cy="275" r="5" fill="#0EA5E9"/>
+  <circle cx="965" cy="310" r="5" fill="#38BDF8"/>
+  <line x1="1010" y1="210" x2="1065" y2="275" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="2"/>
+  <line x1="1010" y1="210" x2="965" y2="310" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="2"/>
+  <line x1="965" y1="310" x2="1065" y2="275" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="2"/>
+</svg>
+
