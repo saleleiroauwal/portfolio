@@ -4,7 +4,7 @@ const contactEmail = import.meta.env.VITE_CONTACT_EMAIL?.trim() || 'saleleiroauw
 const customContactFormEndpoint = import.meta.env.VITE_CONTACT_FORM_ENDPOINT?.trim() || '';
 
 export const siteConfig = {
-  siteUrl: import.meta.env.VITE_SITE_URL?.trim() || '',
+  siteUrl: import.meta.env.VITE_SITE_URL?.trim() || 'https://myportfolio-nine-fawn-32.vercel.app/',
   contactEmail,
   githubUrl: import.meta.env.VITE_GITHUB_URL?.trim() || '',
   cvUrl: import.meta.env.VITE_CV_URL?.trim() || '/Auwal_Salele_Iro_CV.pdf',

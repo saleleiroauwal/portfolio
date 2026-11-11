@@ -29,18 +29,13 @@ export const skillCategories: SkillCategory[] = [
     description:
       'Neural network architectures, vision pipelines, and iterative training and validation workflows.',
     icon: 'layers',
-    editableHint: 'Adjust frameworks below to reflect your active tooling.',
     skills: [
       { name: 'Artificial Neural Networks' },
       { name: 'Convolutional Neural Networks (CNN)' },
       { name: 'Model Training and Evaluation' },
       { name: 'Image Classification' },
       { name: 'Computer Vision' },
-      {
-        name: 'TensorFlow / PyTorch',
-        isEditableNote: true,
-        note: 'Editable — retain whichever framework(s) match your hands-on work',
-      },
+      { name: 'TensorFlow / PyTorch' },
     ],
   },
   {

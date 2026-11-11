@@ -315,11 +315,11 @@ export function ContactSection({ onUnconfiguredSocial, onNotify }: ContactSectio
                         'Submissions are sent directly to the configured contact form endpoint.'
                       ) : (
                         <>
-                          Validated messages are routed directly to{' '}
+                          Validated messages are sent directly to{' '}
                           <span className="font-medium text-slate-800 dark:text-slate-200">
                             {profileData.contact.email}
-                          </span>{' '}
-                          (note: first-time FormSubmit submissions send a one-time verification email to your inbox).
+                          </span>
+                          .
                         </>
                       )
                     ) : (

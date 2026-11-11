@@ -114,7 +114,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
             ) : (
               <span className="inline-flex items-center gap-1.5 rounded-lg border border-dashed border-slate-300 px-3 py-1.5 text-xs text-slate-500 dark:border-slate-700 dark:text-slate-400">
                 <FolderGit2 className="h-3.5 w-3.5" />
-                Repository URL not yet linked in src/data/projects.ts
+                Repository link pending
               </span>
             )}
 

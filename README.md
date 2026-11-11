@@ -69,7 +69,7 @@ my-portfolio/
 
    | Variable | Purpose |
    | --- | --- |
-   | `VITE_SITE_URL` | Canonical production URL (e.g., `https://your-portfolio.vercel.app`) |
+   | `VITE_SITE_URL` | Canonical production URL (`https://myportfolio-nine-fawn-32.vercel.app/`) |
    | `VITE_CONTACT_EMAIL` | Public contact email displayed in the Contact section |
    | `VITE_GITHUB_URL` | Your GitHub profile URL |
    | `VITE_CV_URL` | Path or URL to your CV document (defaults to `/Auwal_Salele_Iro_CV.pdf`) |

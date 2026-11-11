@@ -17,6 +17,10 @@ import { ProjectsSection } from './sections/ProjectsSection';
 import { SkillsSection } from './sections/SkillsSection';
 
 const SECTION_IDS = NAV_ITEMS.map((item) => item.id);
+const HOME_PAGE_TITLE =
+  'Auwal Salele Iro | AI/ML Engineer, Deep Learning & Frontend Developer';
+const HOME_ROBOTS_CONTENT =
+  'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 
 export function App() {
   const { theme, toggleTheme } = useTheme();
@@ -53,9 +57,7 @@ export function App() {
 
   const handlePendingProjectLink = useCallback(
     (label: string, projectTitle: string) => {
-      showToast(
-        `${label} for "${projectTitle}" is currently a placeholder. Add the verified repository URL in src/data/projects.ts.`,
-      );
+      showToast(`${label} for "${projectTitle}" is not published yet.`);
     },
     [showToast],
   );
@@ -65,6 +67,19 @@ export function App() {
   }, [showToast]);
 
   const isRootPath = pathname === '/' || pathname === '/index.html';
+
+  useEffect(() => {
+    document.title = isRootPath
+      ? HOME_PAGE_TITLE
+      : '404 — Page Not Found | Auwal Salele Iro';
+    const robotsMeta = document.querySelector('meta[name="robots"]');
+    if (robotsMeta) {
+      robotsMeta.setAttribute(
+        'content',
+        isRootPath ? HOME_ROBOTS_CONTENT : 'noindex, nofollow',
+      );
+    }
+  }, [isRootPath]);
 
   const handleNavigateHome = useCallback(() => {
     if (!isRootPath) {

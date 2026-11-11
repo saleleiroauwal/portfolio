@@ -3,8 +3,6 @@ import type { ProfileData } from '../types/portfolio';
 
 /**
  * Centralized Profile Configuration
- * Replace placeholder values marked with brackets `[...]` or `null`
- * with your verified personal information.
  */
 export const profileData: ProfileData = {
   fullName: 'Auwal Salele Iro',
@@ -37,8 +35,8 @@ export const profileData: ProfileData = {
     academicBackground: {
       label: 'Academic Background',
       value:
-        '[Placeholder: Pursuing/Completed Degree in Computer Science at University Name — update with your verified program details and academic focus.]',
-      isPlaceholder: true,
+        'B.Sc. Computer Science at Federal University Dutse — focused on artificial intelligence, machine learning fundamentals, system analysis, and software engineering.',
+      isPlaceholder: false,
     },
     careerInterests: {
       label: 'Career Interests',
@@ -48,8 +46,8 @@ export const profileData: ProfileData = {
     professionalObjectives: {
       label: 'Professional Objectives',
       value:
-        '[Placeholder: Seeking opportunities to contribute to AI/ML engineering, software development, or research teams where analytical rigor and clean frontend engineering deliver measurable value.]',
-      isPlaceholder: true,
+        'Seeking opportunities to contribute to AI/ML engineering, software development, or research teams where analytical rigor and clean frontend engineering deliver measurable value.',
+      isPlaceholder: false,
     },
   },
   contact: {

@@ -17,14 +17,6 @@ export function SkillsSection() {
             <SkillCategoryCard key={category.id} category={category} index={index} />
           ))}
         </div>
-
-        <p className="mt-6 text-xs text-slate-500 dark:text-slate-400">
-          All skill entries are managed centrally in{' '}
-          <code className="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-[11px] text-sky-600 dark:bg-slate-800/80 dark:text-sky-400">
-            src/data/skills.ts
-          </code>{' '}
-          so you can tailor frameworks and concepts strictly to what you have practiced and can demonstrate.
-        </p>
       </div>
     </section>
   );

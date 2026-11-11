@@ -66,7 +66,7 @@ export const projectsData: ProjectItem[] = [
         isPlaceholder: false,
       },
     ],
-    note: 'Note: Informational/research prototype only — does not substitute for clinical medical diagnosis. Verified metrics and datasets should be added only after testing.',
+    note: 'Note: Informational/research prototype only — does not substitute for clinical medical diagnosis.',
   },
   {
     id: 'northhaven-ladies-tailoring-system',
@@ -176,7 +176,7 @@ export const projectsData: ProjectItem[] = [
         isPlaceholder: false,
       },
     ],
-    note: 'Status transparency: Currently in proposed/early implementation stage; update the `status` field in `src/data/projects.ts` as milestones are completed.',
+    note: 'Status transparency: Currently in proposed/early implementation stage while adaptive logic and prototype modules are actively scoped.',
   },
 ];
 
