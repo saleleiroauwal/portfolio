@@ -53,33 +53,29 @@ export function HeroSection({ onUnconfiguredSocial, onCvDownload }: HeroSectionP
               )}
             </motion.div>
 
-            <motion.p
+            <motion.h1
               initial={{ opacity: 1, y: 6 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: 0.03, ease: 'easeOut' }}
-              className="mt-6 text-sm font-semibold tracking-wide text-slate-600 sm:text-base dark:text-slate-300"
+              className="mt-6 text-3xl leading-[1.15] font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[2.85rem] dark:text-white"
             >
-              {profileData.fullName}
-              <span className="mx-2.5 text-slate-300 dark:text-slate-700">|</span>
-              <span className="font-normal text-slate-500 dark:text-slate-400">
-                {profileData.subtitle}
-              </span>
-            </motion.p>
-
-            <motion.h1
-              initial={{ opacity: 1, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.32, delay: 0.05, ease: 'easeOut' }}
-              className="mt-3 text-3xl leading-[1.15] font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[2.85rem] dark:text-white"
-            >
-              {profileData.heroHeadline}
+              Auwal Salele Iro – AI/ML Engineer &amp; Deep Learning Practitioner
             </motion.h1>
 
             <motion.p
               initial={{ opacity: 1, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.32, delay: 0.05, ease: 'easeOut' }}
+              className="mt-4 text-lg leading-snug font-semibold text-slate-700 sm:text-xl dark:text-slate-200"
+            >
+              {profileData.heroHeadline}
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 1, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.32, delay: 0.07, ease: 'easeOut' }}
-              className="mt-5 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg dark:text-slate-300"
+              className="mt-4 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg dark:text-slate-300"
             >
               {profileData.heroIntro}
             </motion.p>
